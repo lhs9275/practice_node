@@ -96,7 +96,7 @@ function setupServer() {
 
 
 
-        //로그인 확인 로작 
+        //로그인 확인 로직
         passport.use(new localStrategy({
             usernameField : 'id', // name 이 id 인 input 이 usernameField 이다.
             passwordField : 'pw', // name 이 pw 인 input 이 passwordField 이다.
